@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Georgia', serif;
+  color: #fff;
+  background: #111;
+  overflow-x: hidden;
+}
+
+/* Parallax Section */
+.parallax {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.parallax img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+#bg {
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+#headphones {
+  width: 150px;
+  top: 40%;
+  left: 10%;
+  z-index: 2;
+}
+
+#room {
+  width: 100%;
+  bottom: 0;
+  z-index: 3;
+}
+
+#title {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  z-index: 4;
+  color: #fefefe;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+/* Content Section */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px 5%;
+  background: #1c1c2b;
+  flex-wrap: wrap;
+}
+
+.content.alt {
+  background: #282c3f;
+}
+
+.section-text {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.section-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.section-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #f4c95d;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 50px 20px;
+  background: #111;
+  font-size: 1.2rem;
+  color: #bbb;
+}
