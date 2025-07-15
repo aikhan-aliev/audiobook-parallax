@@ -13,19 +13,19 @@ body, html {
 }
 
 .parallax1 {
-  background-image: url(mon.jpg);
+  background-image: url(./mon.jpg);
 }
 
 .parallax2 {
-  background-image: url("books.jpeg");
+  background-image: url("./books.jpeg");
 }
 
 .parallax3 {
-  background-image: url("beach.jpeg");
+  background-image: url("./beach.jpeg");
 }
 
 .parallax4 {
-  background-image: url("chill.jpeg");
+  background-image: url("./chill.jpeg");
 }
 
 .content {
