@@ -13,19 +13,19 @@ body, html {
 }
 
 .parallax1 {
-  background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+  background-image: url("mon.jpeg");
 }
 
 .parallax2 {
-  background-image: url("https://images.unsplash.com/photo-1512820790803-83ca734da794");
+  background-image: url("books.jpeg");
 }
 
 .parallax3 {
-  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+  background-image: url("beach.jpeg");
 }
 
 .parallax4 {
-  background-image: url("https://images.unsplash.com/photo-1485217988980-11786ced9454");
+  background-image: url("chill.jpeg");
 }
 
 .content {
